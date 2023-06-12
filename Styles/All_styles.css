@@ -1,0 +1,951 @@
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+}
+
+/* top bar */
+.top_bar{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 37, 37);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.offer, .add{
+    display: inline-block;
+}
+
+.vertical_devision{
+    display: inline-block;
+    border-left: 1px solid white;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.apple_logo, .android_logo, .windows_logo{
+    display: inline-block;
+    margin-left: 5px;
+    width: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.united_kingdom_flag{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    vertical-align: middle;
+}
+
+.language, .curancy{
+    background-color: rgb(40, 37, 37);
+    color: white;
+}
+
+/* site logo bar */
+.second_bar{
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.site_logo{
+    width: 51px;
+    height: 55px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.site_name{
+    margin: 0;
+    font-size: 30px;
+    font-weight:1000;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button_in{
+    width: 550px;
+    position: relative;
+}
+
+.search_bar{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-color: rgb(209, 207, 207);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.search_button{
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    left: 95%;
+    top: 5px;
+    bottom:5px;
+    background-color: rgb(246, 87, 87);
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    vertical-align: middles;
+    cursor: pointer;
+}
+
+.user_profile, .heart, .shoping_bag, .search_icon{
+    width: 20px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.user_profile, .heart, .shoping_bag{
+    margin-right: 15px;   
+}
+
+.likes{
+    left: 89%;
+}
+
+.likes, .selected{
+    margin-right: 50%;
+    top: 12%;
+    position:absolute;
+    background-color: rgb(246, 87, 87);
+    color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.selected{
+    left: 92%;
+}
+
+.worth{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* category bar */
+.category_bar{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-color: rgb(209, 207, 207);
+    border-style: solid;
+}
+
+.categories{
+    padding-left: 15px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 110px;
+    background-color: rgb(246, 87, 87);
+    color: white;
+    font-weight: bold;
+}
+
+.category_logo{
+    width: 24px;
+    vertical-align: middle;
+}
+
+.list_name{
+    margin: 0;
+    margin-left: 5px;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.other_categories{
+    padding-left: 35px;
+    padding-top: 23px;
+    padding-right: 10px;
+    padding-bottom: 23px;
+    display: flex;
+    flex-grow: 100;
+}
+
+.main_name{
+    color: rgb(246, 87, 87);
+}
+
+.main_name, .other_name{
+    margin: 0;
+    margin-right: 15px;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+select{
+    border: none;
+    cursor: pointer;
+}
+
+select:active{
+    border: none;
+}
+
+.calling_number{
+    padding-top: 16px;   
+}
+
+.call_icon{
+    width: 40px;
+    vertical-align: middle;
+}
+
+.number{
+    margin: 0;
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+/* suggession bar */
+.flex_box_3rd{
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.all_categories{
+    padding-left: 20px;
+    width: 284px;
+}
+
+.category_images{
+    width: 23px;
+    vertical-align: middle;
+}
+
+.dropdown{
+    margin-bottom: 25px;
+    color: rgb(53, 48, 48);
+    font-size: 15px;
+}
+
+.more_categories{
+    margin-top: 10px;
+    color: rgb(246, 87, 87);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.plus{
+    margin: 0;
+    font-size: 28px;
+    float: right;
+}
+
+.watch_sell{
+    padding-left: 40px;
+    padding-right: 50px;
+    flex-grow: 100;
+    align-items: center;
+}
+
+.one, .two{
+    margin-top: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sale{
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.product_name{
+    margin: 0;
+    margin-bottom: 17px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sale_price{
+    margin: 0;
+    margin-bottom: 20px;
+    color: rgb(246, 87, 87);
+    font-size: 23px;
+    font-weight: bold;
+}
+
+s{
+    color: rgb(185, 185, 185);
+}
+
+.shop_button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(246, 87, 87);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.watches_add{
+    float: right;
+}
+
+.iphone{
+    margin-bottom: 25px;
+}
+
+/* collection of products */
+.flex_collection{
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headphone_div, .camera_div, .watch_div{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headphone_div{
+    background-color: rgb(251, 232, 234);
+}
+
+.camera_div{
+    background-color: rgb(229, 247, 253);
+}
+
+.watch_div{
+    background-color: rgb(248, 225, 201);
+}
+
+.names{
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.product_specie{
+    margin: 0;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.product{
+    margin: 0;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.the_name{
+    margin: 0;
+    font-size: 13px;
+}
+
+.see{
+    color: rgb(246, 87, 87);
+}
+
+.name_image{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.product_image{
+    height: 195px;
+}
+
+/* exclusive product */
+ /* for stars */
+ .stars{
+    margin-left: 20px;
+    display: inline-block;
+ }
+  .fa {
+    font-size: 15px;
+    display: inline-block;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  /* rest code */
+.grid{
+    margin-top: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.the_offer{
+    margin-right: 30px;
+}
+
+.category_grid{
+    padding-bottom: 8px;
+}
+
+.block_name, .block_category, .block_categories{
+    margin: 0;
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.block_categories, .block_category{
+    cursor: pointer;
+}
+
+.block_name{
+    margin: 0;
+    margin-right: 290px;
+    font-size: 25px;
+}
+
+.block_category{
+    color: rgb(246, 87, 87);
+}
+
+hr{
+    border: none;
+    border-top: 1px solid rgb(210, 208, 208);
+    height: 1px;
+    width: 100%;
+}
+
+.product_grid{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 225px 225px 225px 225px;
+    justify-content: space-between;
+}
+
+.equipment_image{
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    height: 200px;
+    vertical-align: middle;
+}
+
+.new{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: orange;
+    color: white;
+    border: none;
+    float: left;
+}
+
+.review{
+    margin: 0;
+    color: rgb(162, 162, 162);
+    font-size: 14px;
+    display: inline-block;
+}
+
+.equipment_name, .equipment_price{
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.equipment_name{
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.equipment_price{
+    margin-bottom: 10px;
+    color: rgb(246, 87, 87);
+}
+
+.per_off{
+    color: rgb(20, 169, 20);
+}
+
+/* deal of the day */
+.grid_deal{
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: grid;
+}
+
+.the_deal{
+    margin: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.arrows{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+    display: inline-block;
+    float: right;
+}
+
+.flex_in_grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.deal_block{
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border-color: rgb(246, 87, 87);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.deal_image, .info{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.info{
+    margin-left: 25px;
+}
+
+.deal_name{
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.deal_price{
+    margin: 0;
+    color: rgb(246, 87, 87);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.deal_name, .deal_price{
+    margin-bottom: 10px;
+}
+
+.sold, .available{
+    margin: 0;
+    color: rgb(134, 134, 134);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.available{
+    float: right;
+}
+
+.product_number{
+    color: #555;
+    font-weight: bolder;
+}
+
+/* horizontal bar */
+.middle
+{
+    margin-top:10px;
+    width: 350px;
+    border-radius:5px;
+}
+  
+  /* The bar container */
+.bar-container 
+{
+    width: 100%;
+    background-color: #ededed;
+    border-radius: 10px;
+}
+  
+  /* Individual bars */
+.bar-1 
+{
+    width: 40%; 
+    height: 18px; 
+    background-color: red;
+    border-radius:10px;
+}
+
+.bar-2
+{
+    width: 20%; 
+    height: 18px; 
+    background-color: red;
+    border-radius:10px;
+}
+
+.grid_in_flex{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    font-size: 25px;
+}
+
+.time{
+    font-size: 15px;
+}
+
+/* new collections */
+.new_grid{
+    margin-top: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.category_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.collection_name{
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.lightning{
+    width: 25px;
+    vertical-align: middle;
+}
+
+.block_cat{
+    margin: 0;
+    color: rgb(246, 87, 87);
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.trending_grid{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* brand advertizement */
+.brand_grid{
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: grid;
+}
+
+.brand_flex{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* top products for sale */
+.all_product_sale_flex{
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.featured_products_flex{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.view{
+    margin: 0;
+    color: rgb(246, 87, 87);
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    float: right;
+}
+
+.product_one{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.product_two{
+    margin-bottom: 30px;
+}
+
+.content, .content_image{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    display: inline-block;
+}
+
+.content_image{
+    width: 90px;
+    height: 90px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.featured_product_name{
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.price{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(246, 87, 87);
+}
+
+.stars_now{
+    display: inline-block;
+}
+
+/* our journy */
+.journy_flex{
+    margin-left: 15px;
+    margin-right: 1px;
+    padding-left: 15px;
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(246, 87, 87);
+    color: white;
+}
+
+.center{
+    display: flex;
+}
+
+.png_image, .text_image{
+    display: inline-block;
+}
+
+.png_image{
+    width: 70px;
+    height: 70px;
+}
+
+.paper_plane{
+    width: 60px;
+    vertical-align: middle;
+}
+
+.join, .promotion{
+    margin: 0;
+    font-weight: bold;
+}
+
+.join{
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.button_in{
+    margin-right: 20px;
+    width: 600px;
+}
+
+.email_input{
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-bottom: 23px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.subscribe{
+    padding-left: 35px;
+    padding-top: 17px;
+    padding-right: 35px;
+    padding-bottom: 17px;
+    left: 78%;
+    top: 5px;
+    background-color: rgb(67, 64, 64);
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    border: none;
+    border-radius: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* other platforms */
+.platforms_flex{
+    margin-top: 50px;
+    margin-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info_image{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.heading{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.important_text, .important_texts{
+    color: rgb(50, 47, 47);
+}
+
+.important_text{
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+/* benifits */
+.benifits{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.delivery_flex, .return_flex, .support_flex{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;justify-content: space-between;
+    align-items: center;
+}
+
+.benifit_image{
+    margin-right: 35px;
+    width: 40px;
+}
+
+.important{
+    margin: 0;
+    color: rgb(50, 47, 47);
+}
+
+/* last block */
+.last_flex{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 34px;
+    height: 34px;
+}
+
+.methods{
+    margin-left: 5px;
+    width: 49px;
+    height: 30px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.up{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 34px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}

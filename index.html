@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- for roboto font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- for stars -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="Image/png" href="/Template22/Images/shoping_cart.png">
+    <link rel="stylesheet" href="/Template22/Styles/All_styles.css">
+    <title>Shopwise</title>
+</head>
+<body>
+    <!-- top bar -->
+    <div class="top_bar">
+        <div class="advertisement">
+            <p class="offer">Free Ground Shopping Over $250 &nbsp;</p>
+            <div class="vertical_devision"></div>
+            <p class="add">&nbsp; Download App</p>
+            <img class="apple_logo" src="/Template22/Images/apple_logo.png" alt="apple logo">
+            <img class="android_logo" src="/Template22/Images/adroid_logo.png" alt="android logo">
+            <img class="windows_logo" src="/Template22/Images/windows_icon.png" alt="windows logo">
+        </div>
+
+        <div class="language_corancy">
+            <img class="united_kingdom_flag" src="/Template22/Images/united_kingdon_flag.png" alt="united kingdom flag">
+            <select name="English" class="language">
+                <option value="English">English</option>
+            </select>
+            <select name="USD" class="curancy">
+                <option value="USD">USD</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- site logo and search bar -->
+    <div class="second_bar">
+        <div>
+            <img class="site_logo" src="/Template22/Images/shoping_cart.png" alt="shoping cart">
+            <p class="site_name">Shopwise</p>
+        </div>
+        <div class="button_in">
+            <input class="search_bar" type="text" placeholder="All Category &or; | &nbsp; Search Products...">
+            <button class="search_button">
+                <img class="search_icon" src="/Template22/Images/search_icon.png" alt="">
+            </button>
+        </div>
+        <div>
+            <img class="user_profile" src="/Template22/Images/user_profile.png" alt="user profile">
+            <img class="heart" src="/Template22/Images/heart.png" alt="likes">
+            <button class="likes">0</button>
+            <img class="shoping_bag" src="/Template22/Images/shoping_bag.png" alt="cart">
+            <button class="selected">2</button>
+            <p class="worth">$159.00</p>
+        </div>
+    </div>
+
+    <!-- category bar -->
+    <div class="category_bar">
+        <div class="categories">
+            <img class="category_logo" src="/Template22/Images/category.png" alt="horizontal lines">
+            <p class="list_name">ALL CATEGORIES</p>
+        </div>
+        <div class="other_categories">
+            <select name="Home" class="main_name" id="home_dropdown">
+                <option value="Home">Home</option>
+            </select>
+            <select name="PAGES" class="other_name">
+                <option value="PAGES">PAGES</option>
+            </select>
+            <select name="PRODUCTS" class="other_name">
+                <option value="PRODUCTS">PRODUCTS</option>
+            </select>
+            <select name="BLOG" class="other_name">
+                <option value="BLOG">BLOG</option>
+            </select>
+            <select name="SHOP" class="other_name">
+                <option value="SHOP">SHOP</option>
+            </select>
+            <p class="other_name">CONTACT US</p>
+        </div>
+        <div class="calling_number">
+            <img class="call_icon" src="/Template22/Images/call.png" alt="call">
+            <p class="number">123-456-7689</p>
+        </div>
+    </div>
+
+    <!-- categories suggessions -->
+    <div class="flex_box_3rd">
+        <div class="all_categories">
+            <img class="category_images" src="/Template22/Images/Computer.png" alt="computer">
+            <select name="computer" class="dropdown">
+                <option value="computer">Computer</option>
+            </select>
+            <br>
+            <img class="category_images" src="/Template22/Images/mobile&tablet.png" alt="mobile & tablets">
+            <select name="mobile" class="dropdown">
+                <option value="mobile">Mobile & Tablets</option>
+            </select>
+            <br>
+            <img class="category_images" src="/Template22/Images/camera.png" alt="camera">
+            <select name="camera" class="dropdown">
+                <option value="camera">Camera</option>
+            </select>
+            <br>
+            <img class="category_images" src="/Template22/Images/accessories.png" alt="accessories">
+            <select name="accessories" class="dropdown">
+                <option value="accessories">Accessories</option>
+            </select>
+            <br>
+            <img class="category_images" src="/Template22/Images/headphone.png" alt="headphones">
+            <select name="headphone" class="dropdown">
+                <option value="headphone">Headphones</option>
+            </select>
+            <br>
+            <img class="category_images" src="/Template22/Images/gaming.png" alt="gaming">
+            <select name="gaming" class="dropdown">
+                <option value="gaming">Gaming</option>
+            </select>
+            <br>
+            <img class="category_images" src="/Template22/Images/watches.png" alt="watches">
+            <select name="watches" class="dropdown">
+                <option value="watches">Watches</option>
+            </select>
+            <br>
+            <img class="category_images" src="/Template22/Images/home_theater.png" alt="home audio and theater">
+            <select name="home" class="dropdown">
+                <option value="home">Home Audio & Theater</option>
+            </select>
+            <br>
+            <img class="category_images" src="/Template22/Images/tv.png" alt="tv">
+            <select name="tv" class="dropdown">
+                <option value="tv">TV & Smart Box</option>
+            </select>
+            <br>
+            <img class="category_images" src="/Template22/Images/printer.png" alt="printer">
+            <select name="printer" class="dropdown">
+                <option value="printer">Printer</option>
+            </select>
+            <hr>
+            <p class="more_categories">More Categories <span class="plus">+</span></p>
+            <hr>
+        </div>
+        <div class="watch_sell">
+            <div class="one">
+                <p class="sale">50% off in all products</p>
+                <p class="product_name">Smart Watches</p>
+                <p class="sale_price">$45.00 <s>$55.25</s></p>
+                <button class="shop_button">SHOP NOW</button>
+            </div>
+            <div class="two">
+                <img class="watches_add" src="/Template22/Images/watches_image.png" alt="">
+            </div>
+        </div>
+        <div>
+            <img class="iphone" src="/Template22/Images/side_mobile_1st.png" alt="iphone">
+            <br>
+            <img class="mac_computer" src="/Template22/Images/side_mobile_2nd.png" alt="mac computer">
+        </div>
+    </div>
+
+    <!-- collections of products -->
+    <div class="flex_collection">
+        <div class="headphone_div">
+            <div class="names">
+                <p class="product_specie">Headphone</p>
+                <p class="product">Music</p>
+                <p class="see">View Collection</p>
+            </div>
+            <div class="name_image">
+                <img class="product_image" src="/Template22/Images/headset.png" alt="headset">
+            </div>
+        </div>
+        <div class="camera_div">
+            <div class="names">
+                <p class="product_specie">Up to 35% OFF</p>
+                <p class="product">Camera</p>
+                <p class="see">Shop Now</p>
+            </div>
+            <div class="name_image">
+                <img class="product_image" src="/Template22/Images/indore_cam.png" alt="cam">
+            </div>
+        </div>
+        <div class="watch_div">
+            <div class="names">
+                <p class="the_name">Sale Offer 20% OFF This Week</p>
+                <p class="product">Watch</p>
+                <p class="see">View Collection</p>
+            </div>
+            <div class="name_image">
+                <img class="product_image" src="/Template22/Images/watch.png" alt="men_watch">
+            </div>
+        </div>
+    </div>
+    
+    <!-- exclusive products -->
+    <div class="grid">
+        <div>
+            <img class="the_offer" src="/Template22/Images/mega_sale.png" alt="exclusive sale">
+        </div>
+        <div>
+            <div class="category_grid">
+                <p class="block_name">Exclusive Products</p>
+                <p class="block_category">New Arrival</p>
+                <p class="block_categories">Best Sellers</p>
+                <p class="block_categories">Featured</p>
+                <p class="block_categories">Special Offer</p>
+            </div>
+            <hr>
+            <div class="product_grid">
+                <div>
+                    <div class="equipment_image">
+                       <img src="/Template22/Images/red_headphone.png" alt=""> 
+                    </div>
+                    <div class="equipment_description">
+                        <p class="equipment_name">Red & Black Headphone</p>
+                        <p class="equipment_price">$45.00 <s> 55.25 </s> <span class="per_off">35% off</span> </p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <p class="review">(21)</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="equipment_image">
+                        <img src="/Template22/Images/smart_watch.png" alt="">
+                    </div>
+                    <div class="equipment_description">
+                        <p class="equipment_name">Smart Watch External</p>
+                        <p class="equipment_price">$55.00 <s> $95.00 </s> <span class="per_off">25% off</span></p>
+                        <div  class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        
+                        <p class="review">(15)</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="equipment_image">
+                        <button class="new">NEW</button>
+                        <img src="/Template22/Images/dslr.png" alt="">
+                    </div>
+                    <div class="equipment_description">
+                        <p class="equipment_name">Nikon HD Camera</p>
+                        <p class="equipment_price">$68.00 <s> $99.00</s></p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <p class="review">(25)</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="equipment_image">
+                        <img src="/Template22/Images/smart_clock.png" alt="">
+                    </div>
+                    <div class="equipment_description">
+                        <p class="equipment_name">Audio Equipment</p>
+                        <p class="equipment_price">$69.00 <s> $89.00 </s> <span class="per_off">20% Off</span></p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span> 
+                        </div>
+                        <p class="review">(22)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex_collection">
+        <div class="headphone_div">
+            <div class="names">
+                <p class="product_specie">Headphone</p>
+                <p class="product">Music</p>
+                <p class="see">View Collection</p>
+            </div>
+            <div class="name_image">
+                <img class="product_image" src="/Template22/Images/headset.png" alt="headset">
+            </div>
+        </div>
+        <div class="camera_div">
+            <div class="names">
+                <p class="product_specie">Up to 35% OFF</p>
+                <p class="product">Camera</p>
+                <p class="see">Shop Now</p>
+            </div>
+            <div class="name_image">
+                <img class="product_image" src="/Template22/Images/indore_cam.png" alt="cam">
+            </div>
+        </div>
+        <div class="watch_div">
+            <div class="names">
+                <p class="the_name">Sale Offer 20% OFF This Week</p>
+                <p class="product">Watch</p>
+                <p class="see">View Collection</p>
+            </div>
+            <div class="name_image">
+                <img class="product_image" src="/Template22/Images/watch.png" alt="men_watch">
+            </div>
+        </div>
+    </div>
+
+    <!-- deal of the day -->
+    <div class="grid_deal">
+        <div>
+            <p class="the_deal">Deal Of The Day</p>
+            <p class="arrows">&lt; &nbsp; &gt;</p>
+        </div>
+
+        <hr>
+
+        <div class="flex_in_grid">
+            <div class="deal_block">
+                <div class="deal_image">
+                    <img src="/Template22/Images/big_red_headphone.png" alt="">
+                </div>
+                <div class="info">
+                    <p class="deal_name">Red & Black Headphone</p>
+                    <p class="deal_price">$45.00 <s>$55.25</s></p>
+                    <p class="sold">Alredy Sold: <span class="product_number">6</span></p>
+                    <p class="available">Available: <span class="product_number">8</span></p>
+                    <div class="middle">
+                        <div class="bar-container">
+                            <div class="bar-1"></div>
+                        </div>
+                    </div>
+                    <div class="grid_in_flex">
+                        <div>
+                            <p>35 <br> <span class="time">Days</span></p>
+                        </div>
+                        <div>
+                            <p>20 <br> <span class="time">Hours</span></p>
+                        </div>
+                        <div>
+                            <p>21 <br> <span class="time">Minutes</span></p>
+                        </div>
+                        <div>
+                            <p>45 <br> <span class="time">Seconds</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="deal_block">
+                <div class="deal_image">
+                    <img src="/Template22/Images/big_smart_watch.png" alt="">
+                </div>
+                <div class="info">
+                    <p class="deal_name">Smart Watch External</p>
+                    <p class="deal_price">$55.00 <s>$95.00</s></p>
+                    <p class="sold">Already Sold: <span class="product_number">4</span></p>
+                    <p class="available">Available: <span class="product_number">22</span></p>
+                    <div class="middle">
+                        <div class="bar-container">
+                            <div class="bar-2"></div>
+                        </div>
+                    </div>
+                    <div class="grid_in_flex">
+                        <div>
+                            <p>35 <br> <span class="time">Days</span></p>
+                        </div>
+                        <div>
+                            <p>20 <br> <span class="time">Hours</span></p>
+                        </div>
+                        <div>
+                            <p>21 <br> <span class="time">Minutes</span></p>
+                        </div>
+                        <div>
+                            <p>45 <br> <span class="time">Seconds</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- new collection -->
+    <div class="new_grid">
+        <div>
+            <img class="the_offer" src="/Template22/Images/new_collection.png" alt="new collection">
+        </div>
+        <div>
+            <div class="category_flex">
+                <div class="col_block_onw">
+                    <p class="collection_name">Trending Products</p>
+                </div>
+                <div class="col_block_two">
+                    <img class="lightning" src="/Template22/Images/lightning.png" alt="lightning">
+                    <p class="block_cat">View All</p>
+                </div>
+            </div>
+            <hr>
+            <div class="trending_grid">
+                <div>
+                    <div class="equipment_image">
+                       <img src="/Template22/Images/smart_watch.png" alt=""> 
+                    </div>
+                    <div class="equipment_description">
+                        <p class="equipment_name">Smart Watch External</p>
+                        <p class="equipment_price">$55.00 <s> 95.00 </s> <span class="per_off">25% off</span> </p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        </div>
+                        <p class="review">(15)</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="equipment_image">
+                        <img src="/Template22/Images/curved_tv.png" alt="">
+                    </div>
+                    <div class="equipment_description">
+                        <p class="equipment_name">Smart Telivisions</p>
+                        <p class="equipment_price">$45.00 <s> $55.25 </s> <span class="per_off">35% off</span></p>
+                        <div  class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        
+                        <p class="review">(21)</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="equipment_image">
+                        <img src="/Template22/Images/oppo_5.png" alt="">
+                    </div>
+                    <div class="equipment_description">
+                        <p class="equipment_name">Oppo Reno3 Pro</p>
+                        <p class="equipment_price">$68.00 <s> $99.00</s> <span class="per_off">20% Off</span></p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <p class="review">(25)</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="equipment_image">
+                        <img src="/Template22/Images/speaker.png" alt="">
+                    </div>
+                    <div class="equipment_description">
+                        <p class="equipment_name">Audio Theaters</p>
+                        <p class="equipment_price">$45.00 <s> $55.25 </s> <span class="per_off">35% Off</span></p>
+                        <div class="stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span> 
+                        </div>
+                        <p class="review">(21)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- brands advertizement -->
+    <div class="brand_grid">
+        <div>
+            <p class="the_deal">Our Brands</p>
+            <p class="arrows">&lt; &nbsp; &gt;</p>
+        </div>
+
+        <hr>
+
+        <div class="brand_flex">
+            <div>
+                <img src="/Template22/Images/anfold_brand.png" alt="brand names">
+            </div>
+            <div>
+                
+                <img src="/Template22/Images/Automotive_brand.png" alt="brand names">
+            </div>
+            <div>
+                <img src="/Template22/Images/fasion_brand.png" alt="brand names">
+            </div>
+            <div>
+                <img src="/Template22/Images/crafted_brand.png" alt="brand names">
+            </div>
+            <div>
+                <img src="/Template22/Images/metonix_brand.png" alt="brand names">
+            </div>
+            <div>
+                <img src="/Template22/Images/sunshine_brand.png" alt="brand names">
+            </div>
+        </div>
+    </div>
+    
+    <!-- all sale products -->
+    <div class="all_product_sale_flex">
+        <!-- top featured products for sale -->
+        <div class="featured_products_flex">
+            <div>
+                <p class="the_deal">Featured Products</p>
+                <p class="view">View All</p>
+            </div>
+            <hr>
+            <div class="product_one">
+                <div class="content_image">
+                    <img src="/Template22/Images/small_smart_watch.png" alt="">
+                </div>
+                <div class="content">
+                    <p class="featured_product_name">Smart Watch External</p>
+                    <p class="price">$55.00 <s> $95.00 </s> <span class="per_off"> 25% Off</span></p>
+                    <div class="stars_now">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> 
+                    </div>
+                    <p class="review">(15)</p>
+                </div>
+            </div>
+            <div class="product_two">
+                <div class="content_image">
+                    <img src="/Template22/Images/small_red_headphone.png" alt="">
+                </div>
+                <div class="content">
+                    <p class="featured_product_name">Red & Black Headphone</p>
+                    <p class="price">$45.00 <s> $55.25 </s> <span class="per_off"> 35% Off</span></p>
+                    <div class="stars_now">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> 
+                    </div>
+                    <p class="review">(21)</p>
+                </div>
+            </div>
+            <div>
+                <div class="content_image">
+                    <img src="/Template22/Images/small_dslr.png" alt="">
+                </div>
+                <div class="content">
+                    <p class="featured_product_name">Nikon HD Camera</p>
+                    <p class="price">$68.00 <s> $99.00</s></p>
+                    <div class="stars_now">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> 
+                    </div>
+                    <p class="review">(25)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- top rated products -->
+        <div class="featured_products_flex">
+            <div>
+                <p class="the_deal">Top Rated Products</p>
+                <p class="view">View All</p>
+            </div>
+            <hr>
+            <div class="product_one">
+                <div class="content_image">
+                    <img src="/Template22/Images/small_curved_tv.png" alt="">
+                </div>
+                <div class="content">
+                    <p class="featured_product_name">Smart Televisions</p>
+                    <p class="price">$45.00 <s> $55.00 </s> <span class="per_off"> 35% Off</span></p>
+                    <div class="stars_now">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> 
+                    </div>
+                    <p class="review">(21)</p>
+                </div>
+            </div>
+            <div class="product_two">
+                <div class="content_image">
+                    <img src="/Template22/Images/lamp.png" alt="">
+                </div>
+                <div class="content">
+                    <p class="featured_product_name">Sound Equipment For Low</p>
+                    <p class="price">$45.00 <s> $55.25 </s> <span class="per_off"> 35% Off</span></p>
+                    <div class="stars_now">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> 
+                    </div>
+                    <p class="review">(21)</p>
+                </div>
+            </div>
+            <div>
+                <div class="content_image">
+                    <img src="/Template22/Images/small_smart_clock.png" alt="">
+                </div>
+                <div class="content">
+                    <p class="featured_product_name">Audio Equipment</p>
+                    <p class="price">$69.00 <s> $89.00</s> <span class="per_off"> 20% Off</span></p>
+                    <div class="stars_now">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> 
+                    </div>
+                    <p class="review">(22)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- on sale products -->
+        <div class="featured_products_flex">
+            <div>
+                <p class="the_deal">On Sale Products</p>
+                <p class="view">View All</p>
+            </div>
+            <hr>
+            <div class="product_one">
+                <div class="content_image">
+                    <img src="/Images/flat_tv.png" alt="">
+                </div>
+                <div class="content">
+                    <p class="featured_product_name">Basics High-Speed HDMI</p>
+                    <p class="price">$69.00 <s> $89.00 </s> <span class="per_off"> 20% Off</span></p>
+                    <div class="stars_now">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> 
+                    </div>
+                    <p class="review">(22)</p>
+                </div>
+            </div>
+            <div class="product_two">
+                <div class="content_image">
+                    <img src="/Template22/Images/small_speaker.png" alt="">
+                </div>
+                <div class="content">
+                    <p class="featured_product_name">Audio Theaters</p>
+                    <p class="price">$45.00 <s> $55.25 </s> <span class="per_off"> 35% Off</span></p>
+                    <div class="stars_now">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> 
+                    </div>
+                    <p class="review">(21)</p>
+                </div>
+            </div>
+            <div>
+                <div class="content_image">
+                    <img src="/Template22/Images/hot.png" alt="">
+                </div>
+                <div class="content">
+                    <p class="featured_product_name">Surveillance Camera</p>
+                    <p class="price">$55.00 <s> $95.00</s> <span class="per_off"> 25% Off</span></p>
+                    <div class="stars_now">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> 
+                    </div>
+                    <p class="review">(15)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- our journy -->
+    <div class="journy_flex">
+        <div class="center">
+            <div class="png_image">
+                <img class="paper_plane" src="/Template22/Images/paper_plane.png" alt="paper plane">
+            </div>
+            <div class="text_image">
+                <p class="join">Join Out Newsletter Now</p>
+                <p class="promotion">Register now to get updates on promotions.</p>
+            </div>
+        </div>
+        <div class="button_in">
+            <input class="email_input" type="text" placeholder="Enter Email Address">
+            <button class="subscribe">Subscribe</button>
+        </div>
+    </div>
+
+    <!-- other platforms -->
+    <div class="platforms_flex">
+        <div>
+            <img class="site_logo" src="/Template22/Images/shoping_cart.png" alt="shoping cart">
+            <p class="site_name">Shopwise</p>
+            <p class="important_text">If you are going to use Lorem lpsum need to be sure<br>there isn't anything hidden to text.</p>
+            <p class="important_text">
+                <img class="info_image" src="/Template22/Images/location.png" alt="location">
+                &nbsp; 123 Street, Old Trafford, NewYork, USA
+            </p>
+            <p class="important_text">
+                <img class="info_image" src="/Template22/Images/mail.png" alt="email">
+                &nbsp; info@sitename.com
+            </p>
+            <p class="important_text">
+                <img class="info_image" src="/Template22/Images/phone.png" alt="contact number">
+                &nbsp; + 456 789 789 65
+            </p>
+        </div>
+        <div>
+            <p class="heading">Useful Links</p>
+            <p class="important_texts">About Us</p>
+            <p class="important_texts">FAQ</p>
+            <p class="important_texts">Location</p>
+            <p class="important_texts">Affilliates</p>
+            <p class="important_texts">Contact</p>
+        </div>
+        <div>
+            <p class="heading">My Account</p>
+            <p class="important_texts">My Account</p>
+            <p class="important_texts">Discount</p>
+            <p class="important_texts">Returns</p>
+            <p class="important_texts">Orders History</p>
+            <p class="important_texts">Order Tracking</p>
+        </div>
+        <div>
+            <p class="heading">Instagram</p>
+            <img src="/Template22/Images/instagram.png" alt="pics">
+        </div>
+    </div>
+    
+    <hr>
+
+    <!-- benifits -->
+    <div class="benifits">
+        <div class="delivery_flex">
+            <div class="free_images">
+                <img class="benifit_image" src="/Template22/Images/delivery.png" alt="delivery">
+            </div>
+            <div>
+                <p class="the_deal">Free Delivery</p>
+                <p class="important">Phasellus blandit massa enim elit of passage<br>varius nunc.</p>
+            </div>
+        </div>
+        <div class="return_flex">
+            <div class="free_images">
+                <img class="benifit_image" src="/Template22/Images/return.png" alt="money return">
+            </div>
+            <div>
+                <p class="the_deal">30 Day Return Gurantee</p>
+                <p class="important">Phasellus blandit massa enim elit of passage<br>varius nunc.</p>
+            </div>
+        </div>
+        <div class="support_flex">
+            <div class="free_images">
+                <img class="benifit_image" src="/Template22/Images/online_support.png" alt="online support">
+            </div>
+            <div>
+                <p class="the_deal">27/4 Online Support</p>
+                <p class="important">Phasellus blandit massa enim elit of passage<br>varius nunc.</p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    
+    <!-- last block -->
+    <div class="last_flex">
+        <div>
+            <img class="logo" src="/Template22/Images/facebook.jpg" alt="facebook">
+            <img class="logo" src="/Template22/Images/twitter.png" alt="twitter">
+            <img class="logo" src="/Template22/Images/google.png" alt="google+">
+            <img class="logo" src="/Template22/Images/youtube.jpg" alt="youtube">
+            <img src="/Template22/Images/logo.png" alt="instagram">
+        </div>
+        <div>
+            <p class="important">&copy; 2020 All Rights Reserved by Bestwebcreato</p>
+        </div>
+        <div>
+            <img class="methods" src="/Template22/Images/visa.png" alt="visa">
+            <img class="methods" src="/Template22/Images/discover.png" alt="discover">
+            <img class="methods" src="/Template22/Images/master_card.png" alt="master card">
+            <img class="methods" src="/Template22/Images/pay_pal.png" alt="pay pal">
+            <button class="up">^</button>
+        </div>
+    </div>
+</body>
+</html>
